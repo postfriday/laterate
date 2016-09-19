@@ -1,2 +1,2 @@
 # laterate
-Killer sluggeneration &amp; transliteration
+Killer slug generation &amp; transliteration for Laravel 5.
