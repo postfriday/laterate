@@ -5,7 +5,7 @@
         "laravel 5",
         "transliteration",
         "slug",
-        "slugify"
+        "slugify",
         "ru"
     ],
     "authors": [
@@ -25,5 +25,5 @@
         "psr-4": {
             "Postfriday\\Latterate\\": "src/"
         }
-    },
+    }
 }
