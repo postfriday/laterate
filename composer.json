@@ -1,6 +1,6 @@
 {
     "name": "postfriday/latterate",
-    "description": "Slug generation & transliteration for Laravel 5",
+    "description": "Killer slug generation & transliteration for Laravel 5",
     "keywords": [
         "laravel 5",
         "transliteration",
