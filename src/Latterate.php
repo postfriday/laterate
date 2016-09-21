@@ -7,7 +7,7 @@ class Latterate
   private function setOptions($array)
   {
     $default = [
-      'delimeter'                 => '|',
+      'delimeter'                 => '-',
       'text_transform'            => 'lowercase',
       'strip_non_slug_symbols'    => true,
       'transliteration_mode'      => 'default',
@@ -43,7 +43,7 @@ class Latterate
 
   private function stripNonSlugSymbols($string, $delimeter)
   {
-    return preg_replace('/[^A-Za-z0-9\-]/', $delimeter, $string);
+    return preg_replace('/[^a-z0-9\-]/i', $delimeter, $string);
   }
 
   private function transliterate($string, $mode)
