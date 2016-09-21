@@ -1,8 +1,8 @@
-<?php namespace Postfriday\Latterate\Facades;
+<?php namespace Postfriday\Latterate;
 
 use Illuminate\Support\Facades\Facade;
 
-class Latterate extends Facade
+class LatterateFacade extends Facade
 {
   /**
    * Get the registered name of the component.

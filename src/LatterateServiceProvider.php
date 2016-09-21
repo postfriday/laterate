@@ -28,14 +28,14 @@ class LatterateServiceProvider extends ServiceProvider
    */
   public function register()
   {
-    $this->app->singleton("Latterate", function ($app) {
+    $this->app->singleton('Latterate', function ($app) {
       return new Latterate();
     });
 
     $this->app->booting(function()
     {
       $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-      $loader->alias('Latterate', 'Postfriday\Latterate\Facades\Latterate');
+      $loader->alias('Latterate', '\Postfriday\Latterate\LatterateFacade');
     });
   }
 
